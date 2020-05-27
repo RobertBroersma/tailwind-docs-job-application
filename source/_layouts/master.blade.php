@@ -26,13 +26,15 @@
     <div class="p-2 rounded-lg bg-gray-900 shadow-lg sm:p-3">
       <div class="flex items-center justify-between flex-wrap">
         <div class="w-0 flex-1 flex items-center">
-          <img class="h-6" src="/img/tailwind-ui-logo-on-dark.svg" alt="">
-          <p class="ml-3 font-medium text-white truncate">
+          <img class="h-6" src="/img/favicon-32x32.png" alt=""> 
+          <span class="pl-3 text-white text-lg font-semibold" >Robert</span>
+          <span class="px-3 text-white" >|</span>
+          <p class="font-medium text-white truncate">
             <span class="lg:hidden">
               <span class="sr-only">Robert Broersma</span> is now available for hire!
             </span>
             <span class="hidden lg:inline text-gray-400">
-              <strong class="text-white font-semibold mr-1">Now for hire!</strong>
+              <strong class="text-white font-semibold mr-1">Now available!</strong>
               <span class="xl:hidden">Awesome Full Stack Developer, crafted by years of experience.</span>
               <span class="hidden xl:inline">Awesome Full Stack Developer, crafted by years of experience.</span>
             </span>
@@ -56,18 +58,6 @@
     </div>
   </div>
 </div>
-
-@if ($page->production)
-  <!-- Google Analytics  -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109068504-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-109068504-1');
-  </script>
-@endif
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 @stack('scripts')
