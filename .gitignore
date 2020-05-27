@@ -10,3 +10,5 @@
 /_tmp
 /yarn-error.log
 /cache
+# Local Netlify folder
+.netlify

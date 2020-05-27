@@ -2,19 +2,19 @@
 
 @section('meta')
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@tailwindcss">
-<meta name="twitter:title" content="Tailwind CSS - A utility-first CSS framework for rapidly building custom designs">
-<meta name="twitter:description" content="{{ $page->description ? $page->description : 'Documentation for the Tailwind CSS framework.' }}">
-<meta name="twitter:image" content="https://tailwindcss.com/img/twitter-large-card.png">
-<meta name="twitter:creator" content="@tailwindcss">
-<meta property="og:url" content="https://tailwindcss.com/" />
+<meta name="twitter:site" content="@robertbrosma">
+<meta name="twitter:title" content="Robert — A Full Stack Developer for rapidly building awesome UI tools for developers.">
+<meta name="twitter:description" content="{{ $page->description ? $page->description : 'Documentation for Robert.' }}">
+<meta name="twitter:image" content="https://hire-for-tailwind.robertbroersma.com/img/twitter-large-card.png">
+<meta name="twitter:creator" content="@robertbrosma">
+<meta property="og:url" content="https://hire-for-tailwind.robertbroersma.com/" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Tailwind CSS - A utility-first CSS framework for rapidly building custom designs" />
-<meta property="og:description" content="{{ $page->description ? $page->description : 'Documentation for the Tailwind CSS framework.' }}" />
-<meta property="og:image" content="https://tailwindcss.com/img/twitter-large-card.png" />
+<meta property="og:title" content="Robert — A Full Stack Developer for rapidly building awesome UI tools for developers." />
+<meta property="og:description" content="{{ $page->description ? $page->description : 'Documentation for Robert.' }}" />
+<meta property="og:image" content="https://hire-for-tailwind.robertbroersma.com/img/twitter-large-card.png" />
 @endsection
 
-@section('title', 'Tailwind CSS - A Utility-First CSS Framework for Rapidly Building Custom Designs')
+@section('title', 'Robert — A Full Stack Developer for rapidly building awesome UI tools for developers.')
 
 @push('scripts')
 <script src="{{ mix('/js/nav.js', 'assets/build') }}"></script>
@@ -45,7 +45,7 @@
                 {{-- Search section --}}
                 <div class="w-full lg:px-6 lg:w-3/4 xl:px-12 group">
                   <div class="relative">
-                    <input id="docsearch" class="transition-colors duration-100 ease-in-out bg-white shadow-md focus:outline-0 border border-transparent placeholder-gray-600 rounded-lg py-2 pr-4 pl-10 block w-full appearance-none leading-normal" type="text" placeholder="Search Robert (Press &quot;/&quot; to focus)">
+                    <input id="docsearch" class="transition-colors duration-100 ease-in-out bg-white shadow-md focus:outline-0 border border-transparent placeholder-gray-600 rounded-lg py-2 pr-4 pl-10 block w-full appearance-none leading-normal" type="text" placeholder="No search here, but don't hesitate to get in touch if you want to know more!">
                     <div class="pointer-events-none absolute inset-y-0 left-0 pl-4 flex items-center">
                       <svg class="fill-current pointer-events-none text-gray-600 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
                     </div>
@@ -93,11 +93,11 @@
           <div class="px-6 text-left md:text-center xl:text-left max-w-2xl md:max-w-3xl mx-auto">
             <h1 class="text-3xl tracking-tight sm:text-4xl md:text-5xl xl:text-4xl font-medium leading-tight">A Full Stack Developer for<br /><span class="text-teal-500 font-medium">rapidly building awesome UI tools for developers.</span></h1>
             <p class="mt-6 leading-relaxed sm:text-lg md:text-xl xl:text-lg text-gray-600">
-              Robert is a highly skilled, creative full stack developer who really loves the work that you do. He will help you build all of the building blocks needed to craft bespoke UI tools for developers and help you create the future!
+              Robert is a highly creative full stack developer who really loves the work that you do. He will help you build all of the building blocks needed to craft bespoke UI tools for developers and help you create the future!
             </p>
             <div class="flex mt-6 justify-start md:justify-center xl:justify-start">
               <a href="mailto:robertbroersma@gmail.com" class="rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-teal-500 hover:bg-teal-600 md:text-lg xl:text-base text-white font-semibold leading-tight shadow-md">Instantly Hire</a>
-              <a href="#what-is-tailwind" class="ml-4 rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-white hover:bg-gray-200 md:text-lg xl:text-base text-gray-800 font-semibold leading-tight shadow-md">Why Robert?</a>
+              <a href="#who-is-robert" class="ml-4 rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-white hover:bg-gray-200 md:text-lg xl:text-base text-gray-800 font-semibold leading-tight shadow-md">Why Robert?</a>
             </div>
           </div>
           <div class="mt-12 xl:mt-0 px-6 flex-shrink-0 hidden md:block">
@@ -159,7 +159,7 @@
                 <path class="text-gray-400 fill-current" d="M20.3 12.04l1.01 3a1 1 0 0 1-1.26 1.27l-3.01-1a7 7 0 1 1 3.27-3.27zM11 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                 <path class="text-gray-700 fill-current" d="M15.88 17.8a7 7 0 0 1-8.92 2.5l-3 1.01a1 1 0 0 1-1.27-1.26l1-3.01A6.97 6.97 0 0 1 5 9.1a9 9 0 0 0 10.88 8.7z"/>
               </svg>
-              <span class="ml-3">Fin</span>
+              <span class="ml-3">Get In Touch</span>
             </a>
           </div>
         </nav>
@@ -177,7 +177,7 @@
         <div id="app" class="flex" v-cloak>
 
           {{-- Main content area --}}
-          <div id="what-is-tailwind" class="pt-12 pb-16 lg:pt-12 w-full">
+          <div id="who-is-robert" class="pt-12 pb-16 lg:pt-12 w-full">
             <div class="markdown mb-6 px-6 max-w-3xl mx-auto lg:ml-0 lg:mr-auto xl:mx-0 xl:px-12 xl:w-3/4">
               <h1>{{ $page->title }}</h1>
 

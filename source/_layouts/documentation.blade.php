@@ -2,16 +2,16 @@
 
 @section('meta')
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@tailwindcss">
-<meta name="twitter:title" content="{{ $page->title ? $page->title . ' - Tailwind CSS' : 'Tailwind CSS - A utility-first CSS framework for rapidly building custom designs' }}">
-<meta name="twitter:description" content="{{ $page->description ? $page->description : 'Documentation for the Tailwind CSS framework.' }}">
-<meta name="twitter:image" content="https://tailwindcss.com/img/tailwind-twitter-square.png">
-<meta name="twitter:creator" content="@tailwindcss">
-<meta property="og:url" content="https://tailwindcss.com/" />
+<meta name="twitter:site" content="@robertbrosma">
+<meta name="twitter:title" content="{{ $page->title ? $page->title . ' - Robert' : 'Robert — A Full Stack Developer for rapidly building awesome UI tools for developers.' }}">
+<meta name="twitter:description" content="{{ $page->description ? $page->description : 'Documentation for Robert.' }}">
+<meta name="twitter:image" content="https://hire-for-tailwind.robertbroersma.com/img/tailwind-twitter-square.png">
+<meta name="twitter:creator" content="@robertbrosma">
+<meta property="og:url" content="https://hire-for-tailwind.robertbroersma.com/" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="{{ $page->title ? $page->title . ' - Tailwind CSS' : 'Tailwind CSS - A utility-first CSS framework for rapidly building custom designs' }}" />
-<meta property="og:description" content="{{ $page->description ? $page->description : 'Documentation for the Tailwind CSS framework.' }}" />
-<meta property="og:image" content="https://tailwindcss.com/img/twitter-large-card.png" />
+<meta property="og:title" content="{{ $page->title ? $page->title . ' - Robert' : 'Robert — A Full Stack Developer for rapidly building awesome UI tools for developers.' }}" />
+<meta property="og:description" content="{{ $page->description ? $page->description : 'Documentation for Robert.' }}" />
+<meta property="og:image" content="https://hire-for-tailwind.robertbroersma.com/img/twitter-large-card.png" />
 @endsection
 
 @push('scripts')
@@ -40,12 +40,12 @@
 
             {{-- Search section --}}
             <div class="w-full lg:px-6 xl:w-3/4 xl:px-12">
-              <!-- <div class="relative">
-                <input id="docsearch" class="transition-colors duration-100 ease-in-out focus:outline-0 border border-transparent focus:bg-white focus:border-gray-300 placeholder-gray-600 rounded-lg bg-gray-200 py-2 pr-4 pl-10 block w-full appearance-none leading-normal" type="text" placeholder="Search the docs (Press &quot;/&quot; to focus)">
+              <div class="relative">
+                <input id="docsearch" class="transition-colors duration-100 ease-in-out focus:outline-0 border border-transparent focus:bg-white focus:border-gray-300 placeholder-gray-600 rounded-lg bg-gray-200 py-2 pr-4 pl-10 block w-full appearance-none leading-normal" type="text" placeholder="No search here, but don't hesitate to get in touch if you want to know more!">
                 <div class="pointer-events-none absolute inset-y-0 left-0 pl-4 flex items-center">
                   <svg class="fill-current pointer-events-none text-gray-600 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
                 </div>
-              </div> -->
+              </div>
             </div>
 
 
@@ -134,7 +134,7 @@
                 <path class="text-gray-400 fill-current" d="M20.3 12.04l1.01 3a1 1 0 0 1-1.26 1.27l-3.01-1a7 7 0 1 1 3.27-3.27zM11 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                 <path class="text-gray-700 fill-current" d="M15.88 17.8a7 7 0 0 1-8.92 2.5l-3 1.01a1 1 0 0 1-1.27-1.26l1-3.01A6.97 6.97 0 0 1 5 9.1a9 9 0 0 0 10.88 8.7z"/>
               </svg>
-              <span class="ml-3">Fin</span>
+              <span class="ml-3">Get In Touch</span>
             </a>
           </div>
         </nav>
@@ -186,52 +186,6 @@
                   @unless($page->hideTableOfContents)
                   <table-of-contents class="mb-8"></table-of-contents>
                   @endunless
-                  <div id="ad"></div>
-                  <div id="tailwind-ui-widget" style="display: none;">
-                    <a href="https://tailwindui.com/?utm_source=tailwindcss&utm_medium=sidebar-widget" class="mt-3 block">
-                      <img src="/img/tailwind-ui-sidebar.png" alt="Tailwind UI">
-                    </a>
-                    <p class="mt-4 text-gray-700">
-                      <a href="https://tailwindui.com/?utm_source=tailwindcss&utm_medium=sidebar-widget" class="text-gray-700">
-                      Beautiful UI components by the creators of Tailwind CSS.
-                      </a>
-                    </p>
-                    <div class="mt-2">
-                      <a href="https://tailwindui.com/?utm_source=tailwindcss&utm_medium=sidebar-widget" class="text-sm text-gray-800 font-medium hover:underline">
-                        Learn more &rarr;
-                      </a>
-                    </div>
-                  </div>
-                  <div id="tailwind-ui-job-widget" style="display: none;">
-                    <a href="https://jobs.tailwindui.com/full-stack-developer" class="mt-3 block">
-                      <img class="rounded-lg" src="/img/tailwind-ui-hiring.svg" alt="Tailwind UI">
-                    </a>
-                    <p class="mt-4 text-gray-700">
-                      <a href="https://jobs.tailwindui.com/full-stack-developer" class="text-gray-700">
-                        We're hiring a full-stack developer to help us make UI development faster, easier, and a lot more fun.
-                      </a>
-                    </p>
-                    <div class="mt-2">
-                      <a href="https://jobs.tailwindui.com/full-stack-developer" class="text-sm text-gray-800 font-medium hover:underline">
-                        Learn more and apply &rarr;
-                      </a>
-                    </div>
-                  </div>
-                  <div id="refactoring-ui-widget" style="display: none;">
-                    <a href="https://refactoringui.com/book?utm_source=tailwindcss&utm_medium=sidebar-widget" class="mt-3 block">
-                      <img src="/img/refactoring-ui-book.png" alt="">
-                    </a>
-                    <p class="text-gray-700 text-center">
-                      <a href="https://refactoringui.com/book?utm_source=tailwindcss&utm_medium=sidebar-widget" class="text-gray-700">
-                      Learn UI design, from the creators of Tailwind CSS.
-                      </a>
-                    </p>
-                    <div class="mt-3 text-center">
-                      <a href="https://refactoringui.com/book?utm_source=tailwindcss&utm_medium=sidebar-widget" class="inline-block px-3 py-2 text-sm bg-indigo-500 text-white font-semibold rounded hover:bg-indigo-600">
-                        Learn more &rarr;
-                      </a>
-                    </div>
-                  </div>
                 </div>
               </div>
               {{-- /Table of contents --}}
