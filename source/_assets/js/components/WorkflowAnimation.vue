@@ -99,7 +99,7 @@
           ]"></animation-code-text><!--
        --><div ref="nameCursor" class="invisible inline-block border-r-2 border-yellow h-6 absolute" style="margin-top: -0.125rem"></div><!--
        --><div class="inline-block code-blue">&gt;</div><!--
-       --><div class="inline-block code-white">Erin Lindford</div><!--
+       --><div class="inline-block code-white">Robert Broersma</div><!--
        --><div class="inline-block code-blue">&lt;/</div><!--
        --><div class="inline-block code-red">h2</div><!--
        --><div class="inline-block code-blue">&gt;</div><!--
@@ -136,7 +136,7 @@
        --></div><!--
        --><div ref="roleCursor" class="invisible inline-block border-r-2 border-yellow h-6 absolute" style="margin-top: -0.125rem"></div><!--
        --><div class="inline-block code-blue">&gt;</div><!--
-       --><div class="inline-block code-white">Customer Support</div><!--
+       --><div class="inline-block code-white">Full Stack Developer</div><!--
        --><div class="inline-block code-blue">&lt;/</div><!--
        --><div class="inline-block code-red">div</div><!--
        --><div class="inline-block code-blue">&gt;</div><!--
@@ -171,7 +171,7 @@
        --></div><!--
        --><div ref="contactCursor1" class="invisible inline-block border-r-2 border-yellow h-6 absolute" style="margin-top: -0.125rem"></div><!--
        --><div class="inline-block code-blue">&gt;</div><!--
-       --><div class="inline-block code-white">erinlindford@example.com</div><!--
+       --><div class="inline-block code-white">robertbroersma@gmail.com</div><!--
        --><div class="inline-block code-blue">&lt;/</div><!--
        --><div class="inline-block code-red">div</div><!--
        --><div class="inline-block code-blue">&gt;</div><!--
@@ -206,7 +206,7 @@
        --></div><!--
        --><div ref="contactCursor2" class="invisible inline-block border-r-2 border-yellow h-6 absolute" style="margin-top: -0.125rem"></div><!--
        --><div class="inline-block code-blue">&gt;</div><!--
-       --><div class="inline-block code-white">(555) 765-4321</div><!--
+       --><div class="inline-block code-white">+316 1050 4568</div><!--
        --><div class="inline-block code-blue">&lt;/</div><!--
        --><div class="inline-block code-red">div</div><!--
        --><div class="inline-block code-blue">&gt;</div><!--
@@ -226,53 +226,53 @@
    --></div>
       <div ref="card" class="shadow-lg leading-normal self-end bg-white w-64 rounded-lg -mt-16 relative" style="width: 20rem;">
         <div ref="cardLarge" class="hidden p-6">
-          <img ref="avatar" class="h-24 w-24 block mr-6 rounded-full" src="https://randomuser.me/api/portraits/women/17.jpg" alt="">
+          <img ref="avatar" class="h-24 w-24 block mr-6 rounded-full" src="/img/robert.jpg" alt="">
           <div ref="content" class="text-gray-800 text-left">
             <h2 ref="name" class="text-xl font-normal text-gray-800">
-              <div class="inline-block relative">Erin Lindford</div>
+              <div class="inline-block relative">Robert Broersma</div>
             </h2>
             <div ref="role">
-              <div class="inline-block relative text-purple-500">Customer Support</div>
+              <div class="inline-block relative text-purple-500">Full Stack Developer</div>
             </div>
             <div ref="email">
-              <div class="inline-block relative text-gray-600">erinlindford@example.com</div>
+              <div class="inline-block relative text-gray-600">robertbroersma@gmail.com</div>
             </div>
             <div ref="phone">
-              <div class="inline-block relative text-gray-600">(555) 765-4321</div>
+              <div class="inline-block relative text-gray-600">+316 1050 4568</div>
             </div>
           </div>
         </div>
         <div ref="cardSmall" class="hidden p-6">
-          <img ref="avatar" class="h-16 w-16 block mb-4 mx-auto rounded-full" src="https://randomuser.me/api/portraits/women/17.jpg" alt="">
+          <img ref="avatar" class="h-16 w-16 block mb-4 mx-auto rounded-full" src="/img/robert.jpg" alt="">
           <div ref="content" class="text-gray-800 text-center">
             <h2 ref="name" class="text-xl font-normal text-gray-800">
-              <div class="inline-block relative">Erin Lindford</div>
+              <div class="inline-block relative">Robert Broersma</div>
             </h2>
             <div ref="role">
-              <div class="inline-block relative text-purple-500">Customer Support</div>
+              <div class="inline-block relative text-purple-500">Full Stack Developer</div>
             </div>
             <div ref="email">
-              <div class="inline-block relative text-gray-600">erinlindford@example.com</div>
+              <div class="inline-block relative text-gray-600">robertbroersma@gmail.com</div>
             </div>
             <div ref="phone">
-              <div class="inline-block relative text-gray-600">(555) 765-4321</div>
+              <div class="inline-block relative text-gray-600">+316 1050 4568</div>
             </div>
           </div>
         </div>
         <div ref="cardInner">
-          <img ref="avatar" class="h-16 w-16 block mb-4" src="https://randomuser.me/api/portraits/women/17.jpg" alt="">
+          <img ref="avatar" class="h-16 w-16 block mb-4" src="/img/robert.jpg" alt="">
           <div ref="content" class="text-gray-800">
             <h2 ref="name" class="text-base font-normal text-gray-800">
-              <div class="inline-block relative">Erin Lindford</div>
+              <div class="inline-block relative">Robert Broersma</div>
             </h2>
             <div ref="role">
-              <div class="inline-block relative">Customer Support</div>
+              <div class="inline-block relative">Full Stack Developer</div>
             </div>
             <div ref="email">
-              <div class="inline-block relative">erinlindford@example.com</div>
+              <div class="inline-block relative">robertbroersma@gmail.com</div>
             </div>
             <div ref="phone">
-              <div class="inline-block relative">(555) 765-4321</div>
+              <div class="inline-block relative">+316 1050 4568</div>
             </div>
           </div>
         </div>

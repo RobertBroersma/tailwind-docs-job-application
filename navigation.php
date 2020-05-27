@@ -156,7 +156,7 @@ return [
             'Screen Readers' => '/docs/screen-readers',
         ],
     ],
-    'Components' => [
+    'Projects' => [
         'Examples' => [
             'Alerts' => '/components/alerts',
             'Buttons' => '/components/buttons',

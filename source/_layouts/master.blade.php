@@ -29,18 +29,18 @@
           <img class="h-6" src="/img/tailwind-ui-logo-on-dark.svg" alt="">
           <p class="ml-3 font-medium text-white truncate">
             <span class="lg:hidden">
-              <span class="sr-only">Tailwind UI</span> is now in early access!
+              <span class="sr-only">Robert Broersma</span> is now available for hire!
             </span>
             <span class="hidden lg:inline text-gray-400">
-              <strong class="text-white font-semibold mr-1">Now in early access!</strong>
-              <span class="xl:hidden">Beautiful UI components by the creators of Tailwind CSS.</span>
-              <span class="hidden xl:inline">Beautiful UI components, crafted by the creators of Tailwind CSS.</span>
+              <strong class="text-white font-semibold mr-1">Now for hire!</strong>
+              <span class="xl:hidden">Awesome Full Stack Developer, crafted by years of experience.</span>
+              <span class="hidden xl:inline">Awesome Full Stack Developer, crafted by years of experience.</span>
             </span>
           </p>
         </div>
         <div class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
           <div class="rounded-md shadow-sm">
-            <a href="https://tailwindui.com?utm_source=tailwindcss&utm_medium=footer-banner" class="flex items-center justify-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-gray-900 bg-white hover:text-gray-800 focus:outline-none focus:underline">
+            <a href="/" class="flex items-center justify-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-gray-900 bg-white hover:text-gray-800 focus:outline-none focus:underline">
               Learn more
             </a>
           </div>

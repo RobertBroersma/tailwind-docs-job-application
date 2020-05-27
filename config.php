@@ -11,10 +11,10 @@ return [
     'version' => json_decode(file_get_contents(__DIR__ . '/node_modules/tailwindcss/package.json'), true)['version'],
     'colors' => ['red', 'orange', 'yellow', 'green', 'teal', 'blue', 'indigo', 'purple', 'pink'],
     'categoryName' => function ($page) {
-        if (starts_with($page->getPath(), '/docs')) {
-            return 'Documentation';
-        } elseif (starts_with($page->getPath(), '/components')) {
-            return 'Components';
+        if (starts_with($page->getPath(), '/technical')) {
+            return 'Technical';
+        } elseif (starts_with($page->getPath(), '/projects')) {
+            return 'Projects';
         } elseif (starts_with($page->getPath(), '/course') || starts_with($page->getPath(), '/screencasts')) {
             return 'Screencasts';
         } elseif (starts_with($page->getPath(), '/resources')) {
