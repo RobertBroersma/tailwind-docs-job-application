@@ -15,7 +15,7 @@
     "cross-env": "^3.2.3",
     "escape-html": "^1.0.3",
     "extra-watch-webpack-plugin": "^1.0.3",
-    "gsap": "^2.1.2",
+    "gsap": "^3.6.0",
     "hasbin": "^1.2.3",
     "laravel-mix": "^4.0.15",
     "less": "^2.7.2",
